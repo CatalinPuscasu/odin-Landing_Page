@@ -8,6 +8,8 @@ section {
   display: flex;
 }
 
+/* ------------------RESET------------------------ */
+
 .header {
   display: flex;
   flex-direction: row;
@@ -19,6 +21,7 @@ section {
   padding-left: 10px;
   justify-content: space-around;
   background-color: #1f2937;
+  margin-top: 0;
 }
 
 .header ul {
@@ -27,15 +30,20 @@ section {
   gap: 20px;
 }
 
+.header a {
+  text-decoration: none;
+  color: rgb(217, 228, 233);
+}
+
+/* -----------------------HEADER END----------------------------------------------- */
+
+/* --------------------------------HERO-------------------------------------------- */
+
 .hero {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
-}
-
-.header a {
-  text-decoration: none;
-  color: rgb(217, 228, 233);
+  height: 400px;
 }
 
 .container {
@@ -44,8 +52,32 @@ section {
   justify-content: center;
   align-items: center;
   color: white;
+  gap: 20px;
+  padding-bottom: 3px;
+}
+
+p {
+  padding: 4px;
+  margin-bottom: 23px;
 }
 
 img {
   width: 300px;
 }
+
+button {
+  background-color: blue;
+  color: white;
+  width: 79px;
+  height: 35px;
+  border-radius: 15%;
+  border-color: #1f2937;
+}
+
+button:hover {
+  background-color: white;
+  color: blue;
+  transition: ease-in 0, 3s;
+}
+
+/* -----------------------------END HERO-------------------------------------------------- */
