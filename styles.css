@@ -124,6 +124,9 @@ h2 {
   align-items: center;
   margin-left: 200px;
 }
+/* ------------------------CONTENT END------------------------------------------------------------- */
+
+/* ------------------------QUOTE SECTION------------------------------------------------- */
 
 .Quote-section {
   display: flex;
@@ -139,3 +142,33 @@ h2 {
 q {
   margin-left: 150px;
 }
+
+/* -----------------------------------------QUOTE SECTION END----------------------------------------------------*/
+
+/* -----------------------------------Sign-up----------------------------------------------------- */
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: mediumblue;
+  height: 150px;
+  width: 700px;
+  border-radius: 2%;
+  color: white;
+}
+
+#SIGN {
+  margin-left: 23px;
+  border-color: white;
+}
+
+/* --------------------------------------Sign-up  END----------------------------------------------------------------------- */
