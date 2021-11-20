@@ -70,6 +70,10 @@ img {
   width: 300px;
 }
 
+#Hero-img {
+  border-radius: 4%;
+}
+
 button {
   background-color: blue;
   color: white;
